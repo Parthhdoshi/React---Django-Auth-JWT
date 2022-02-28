@@ -19,7 +19,6 @@ function App() {
           </Route>
             {/* <Route exact path='/' element={<HomePage/>}/>  */}
             <Route exact path='/login' element={<LoginPage/>}/> 
-            {/* <Route exact path='/' element={<HomePage/>}/> */}
         </Routes>
       </AuthProvider>
     </Router>
